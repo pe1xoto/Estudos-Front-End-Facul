@@ -1,0 +1,93 @@
+Marcação de titulos vão apenas até <h6>
+
+Paragrafo <p> sempre vai dar um espaçamento de 1 linha
+
+<br> continua o proximo texto na linha de baixo
+
+<hr> cria uma linha
+
+<b> Deixa texto em negrito (não mas utilizado)
+<strong> deixa o texto em negrito(utilizado atualmente)
+
+<em> deixa o texto em italico(utilizado atualmente)
+<i> deixa o texto em italico também(não mas utilizado)
+
+<u> deixa o texto em underline(com uma linha abaixo)
+
+<strike> deixa o texto com Marcação de errado(com uma linha riscando ao meio)
+
+<ul> lista não ordenada(util para fazer um mapa do site)
+<ul type=""> serve para trocar o tipo do ponto de marcação da <ul> (ex:circle , square e disc)
+
+<ol> lista ordenada(montar uma lista com segmentos padrões)
+<ol type=""> serve para alterar o tipo de ordem da <ol> (ex: 1 , A , a , I , i)
+
+<li> para escrever dentro da lista.
+
+<!-- comentario em html -->
+
+<img src="endereço da imagem">
+
+width="" para largura e height="" para altura
+
+index.html primeira pagina a ser carregada do site
+
+<a href=""> serve para criar link para levar para outras paginas (a = anchor(ancora) href = hiper link reference)
+
+<table> serve para criar tabelas e <table border=""> para grossura da borda da tabela
+
+<tr> (table row) serve para cria linha da tabela
+
+<td> serve para definir dados dentro da tabela
+
+<th>(table header) serve para definir titulos das tabelas para diferenciar dos conteudos contidos dentro da tabela
+
+dá pra usar width depois do border para tamanho da tabela
+
+usar % dentro de width ajusta a para porcentagem do tamanho do site (ex: width="100%" vai esticar para o tamanho do site)
+
+dá pra colocar imagens dentro da tabela
+
+porcentagem de tamanho também serve para imagens (ex: <img src="imagens/imagem.png" width="100%"> a imagem vai se ajustar para tamanho do site)
+
+dá pra colocar link da tabela também
+
+colstan(Extensão de coluna) dentro de <td> ou <th> (ex: <td colstan="2"> peixoto </td> vai ocupar duas colunas)
+
+rowspan(Extensão da linha) dentro de <td> ou <th> (ex: <th rowspan="2"> peixoto </th> vai ocupar duas linhas)
+
+<form> para formulario de login/cadastro e +
+
+<input type="" name=""> dentro de form para criar a forma de entrada de dados
+(ex: em type se colocar password não ira mostra a senha , number só vai aceitar numero , text vai aceitar tudo)
+
+<input type="button" value="Logar"> para criar botão e value é texto dentro do botão
+
+<input type="radio" name=""> para criar bolinha para marcar (ex: apareceu para marcar seu sexo e tem masculino e feminino duas bolinhas para marcar)
+em name colocar o nome igual para as opções se quiser marcar apenas um , se não multiplos vão estar marcados juntos
+
+<input type="radio" name="" value=""> colocar valores diferentes em value para diferenciar os dados e saber a escolha do usuario
+(ex: "M" de masculino em value e "F" de feminino em value)
+
+<input type="checkbox" name=""> para criar um quadrado e marcar ele (ex: criar varias checkbox de interesses e marcar os que você gosta)
+
+<select> cria caixa de opções
+
+<option> para criar opções dentro do select (usar value dentro do option para resgatar o dado escolhido pelo usuario)
+
+<textarea> para criar area de texto infinita
+
+Entities html para caracteres especiais (https://www.w3schools.com/html/html_entities.asp)
+
+align="center" para centralizar
+
+
+
+
+
+
+
+
+
+
+

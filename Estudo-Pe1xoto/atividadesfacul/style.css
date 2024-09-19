@@ -1,0 +1,43 @@
+.lista_compras{
+    color: rgb(255, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#pf{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: 20px; color: rgb(0, 17, 255);
+}
+
+body {
+    background-color: black;
+}
+
+  .button {
+    padding: 100px 100px;
+    border: none;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 90px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    cursor: pointer;
+    transition: background-color 0.1s;
+    animation: changeColor 1s infinite alternate , zoomInOut 1s infinite alternate ;
+  }
+
+  @keyframes changeColor {
+    0% { background-color: rgb(255, 0, 0); } /* Vermelho */
+    25% { background-color: rgb(0, 255, 0); } /* Verde */
+    50% { background-color: rgb(0, 0, 255); } /* Azul */
+    75% { background-color: rgb(255, 255, 0); } /* Amarelo */
+    100% { background-color: rgb(255, 0, 255); } /* Magenta */
+  }
+
+  @keyframes zoomInOut {
+    0%, 100% { transform: scale(0.1); }
+    50% { transform: scale(1.1); } /* Zoom in */
+  }
+
+  @keyframes rotate {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+ 

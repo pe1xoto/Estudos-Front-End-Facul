@@ -1,0 +1,98 @@
+/*
+Modelo de Caixa
+*/
+
+/*.conteudo {
+    border: 5px solid red;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+
+    padding: 20px 20px 20px 100px;
+    
+    padding: 20px 100px;
+
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+
+    margin: 20px;
+
+    width: 150px;
+
+}*/
+
+/* Elementos Flutuantes */
+
+.conteudo {
+    background-color: aqua;
+    border: 5px solid rgb(238, 255, 0);
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    float: left;
+}
+
+/*.conteudo1 {
+    background-color: rgb(255, 0, 221);
+    border: 5px solid rgb(238, 255, 0);
+    width: 150px;
+    height: 150px;
+    float: right;
+}*/
+
+.clear {
+    clear: left;
+}
+
+/* elementos flutuantes pratica */
+
+body {
+    background: #f4f4f4;
+}
+
+#principal {
+    width: 920px;
+    border: 1px solid red;
+
+}
+ 
+.noticia {
+    background-color: #e5e5e5;
+    padding: 5px;
+    width: 280px;
+    margin: 7px;
+    float: left;
+}
+
+.clear{
+    clear: both;
+}
+
+.imagem_galeria {
+    background: white;
+    width: 265px;
+    padding: 5px;
+    float: left;
+    margin: 15px;
+}
+
+.catsizes {
+    width: 264px;
+    height: 209px;
+}
+
+/* Elementos inline, block e inline-block */
+
+.borda{
+    border: 2px solid red;
+    display: inline-block;
+}
+
+ /* posicionamento estático e relativo */
+
+ 
+
+

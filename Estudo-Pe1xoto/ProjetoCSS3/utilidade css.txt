@@ -1,0 +1,102 @@
+CSS = Cascading Style Sheets(Folha de Estilo em Cascatas)
+
+Inline Style: Feito utilizando style na linha que você queira alterar
+<p style= " color: red; ">
+
+Internal Style Sheet: Feito utilizando seletores dentro do <body>
+dentro de <body> para alterar cores de forma otimizada utilizando seletores <style type="text/css">
+dentro de <style type="text/css"> utilizar p{ color: blueviolet;}
+
+. define que é classe(dentro de <head>)
+.azul{ color: blue;}
+No linha dentro do body que você quiser adicionar a cor definida pela classe vai colocar (ex: <p class="azul">)
+
+Seletores são para aplicar formatações em varias linhas e Classes para definir formatações especificas
+
+Id apenas 1 por pagina
+
+<div> = divisão do site
+
+<div> elemento do tipo block
+
+<div> ocupa 100% do espaço na tela
+
+<span> elemento do tipo inline(ele agrupa seus elementos linha a linha) 
+
+border pode ser usada dentro de todos elementos do <body>
+
+estilos de borda (https://www.w3schools.com/css/css_border.asp)(none = sem borda e hidden = esconde a borda)
+
+para criar bordas abrir uma <div> criar um id e usar border(#conteudo{border: 1px solid red;})
+
+para comentar codigo em css /* */
+
+outra maneira de criar bordas(border-color: red; border-width: 15px;border-style: solid;)(dá pra adicionar 4 cores/tamaho de bordas/tipos de bordas)
+
+se definir apenas dois valores o primeiro valor vai para superior e inferior e o segundo valor vai para lateral direita e esquerda
+
+Código de cores HTML(https://html-color-codes.info/Codigos-de-Cores-HTML/)
+
+utilizar cores em hexadecimal (boa pratica)
+
+font-size: px (tamanho da fonte)
+
+font-family: "Comic Sans MS"; (para escolher a fonte e sua familia)
+
+px -> tamanho fixo
+% -> tamanho relativo
+em -> tamanho relativo ao container pai
+
+para texto em negrito (font-weight: normal , bold 100 até 900)
+
+para texto em italico (font-style: italic;)
+
+text-decoration para colocar linhas abaixo,acima e cortando a palavra(underline,overline e line-through)
+
+background e background-color para fundo
+
+background-image: url(imagens/imagem desejada); (colocar imagens) dentro da id body e utilizar a class
+
+background-repeat: no-repeat; (não repetir imagem)
+
+background-attachment: fixed; (a imagem não sai da tela mesmo rolando para baixo e scroll sai da tela)
+
+background-position: top center; (posição da imagem dentro body , ela recebe dois valores)(left/right/top/center/bottom)
+
+padding cria espaçamento dentro da caixa
+
+margin para dar espaçamento entre as caixas
+
+margin collapse a margin maior vai ser aplicada se tiver duas margin
+
+h2 ja possui um espaçamento padrão (colocar um margin: 0px;)
+
+float: right; coloca o elemento a direita e esquerda e sobrepoe o elemento left
+
+float: left; alinha td em cima um do lado do outro
+
+elemento em block: largura que ocupa todo espaçamento em tela e se alinham um abaixo do outro (ex: <h1> , <p> , <table>)
+
+elemento inline: largura da box de acordo com o conteudo e se alinha a frente do outro (ex: <a> , <span> , <img>)
+
+elemento inline-block: largura da box de acordo com seu conteudo e se alinham um abaixo do outro (ex: display: inline-block)
+
+auto em margin para centralizar automatico o espaçamento
+
+top para movimentar elemento com posicionamento relativo por padrão
+
+posicionamento absoluto ignora outros elementos atravessando ou sobrepondo eles
+
+container precisa ter um position relative para poder alinhar elementos absolutos dentro dele
+
+fixed mantem o elemnto estatico na tela mesmo scrolando para baixo
+
+z-index serve para sobrepor elementos por ordem numeral de maior para menor
+
+z-index também é chamado de contexto de empilhamento
+
+a:link para alterar cor de links não visitados
+a:visited para alterar cor de links visitados
+a:hover para alterar cor de link quando passar o cursor por cima
+a:active para alterar cor de link quando clicado
+
